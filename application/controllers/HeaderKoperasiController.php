@@ -9,7 +9,11 @@ class HeaderKoperasiController extends CI_Controller
 	public function index()
 	{
 		$this->load->view('HeaderUtama');
+		$this->load->view('SideBar');
+		$this->load->view('Contents');
 	}
+
+
 }
 ?>
 
