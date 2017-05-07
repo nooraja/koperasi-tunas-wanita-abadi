@@ -13,6 +13,12 @@ class HeaderKoperasiController extends CI_Controller
 		$this->load->view('Contents');
 	}
 
+	public function setLogin()
+	{
+		$this->load->view('Login');
+	}
+
+	
 
 }
 ?>
